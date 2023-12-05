@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm i && npm run dev
+RUN npm i && npm run build
 
 RUN npm i -g serve
 
